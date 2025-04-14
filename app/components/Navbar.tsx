@@ -19,7 +19,7 @@ export default function Navbar() {
           height={200}
           className="rounded-lg"
         />
-      <div className="flex flex-row gap-16 font-mono text-xl">
+      <div className="flex flex-row gap-16 font-mono text-xl drop-shadow-xsz drop-shadow-secondary">
         <NavbarDropdown
           label="Tours"
           items={[

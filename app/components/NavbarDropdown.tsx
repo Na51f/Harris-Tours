@@ -23,7 +23,7 @@ export default function NavbarDropdown({ label, items }: NavbarDropdownProps) {
       onMouseLeave={() => setIsOpen(false)}
     >
       <button
-        className="flex items-center gap-1 hover:text-gray-600 transition-colors"
+        className="flex items-center gap-1 hover:text-secondary transition-colors"
         onMouseEnter={() => setIsOpen(true)}
       >
         {label}
@@ -44,7 +44,7 @@ export default function NavbarDropdown({ label, items }: NavbarDropdownProps) {
       </button>
 
       <div 
-        className={`absolute top-full mt-2 py-2 w-48 bg-white rounded-lg shadow-lg transition-all duration-300 ease-in-out ${
+        className={`absolute top-full mt-2 py-2 w-48 bg-neutral rounded-lg shadow-lg transition-all duration-300 ease-in-out ${
           isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'
         }`}
         onMouseEnter={() => setIsOpen(true)}
