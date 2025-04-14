@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Harris Tours - Affordable Student Travel
 
-## Getting Started
+## Overview
+Harris Tours is a specialized travel service designed to make adventure accessible for college students. The website serves as a platform for Trinity Harris's innovative approach to student travel, offering affordable weekend trips, spring break adventures, and summer tours that prioritize hands-on experiences over traditional sightseeing.
 
-First, run the development server:
+## Purpose
+The platform addresses a crucial need in the student travel market: affordable, time-efficient travel options for college students. With over 10% of college students expressing interest in travel but facing financial and scheduling constraints, Harris Tours provides a solution through:
+- Weekend-focused tour schedules
+- Activity-based experiences
+- Budget-friendly options
+- Student-centric planning
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **Weekend Trips**: Short, accessible adventures designed around student schedules
+- **Spring Break Tours**: Specialized vacation packages for spring break periods
+- **Summer Tours**: Extended travel experiences during summer breaks
+- **Interactive Activities**: Focus on hands-on adventures including:
+  - Amusement park visits
+  - Go-kart racing
+  - Arcade gaming
+  - Horse riding
+  - And more!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology
+Built with modern web technologies:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Modern responsive design principles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About the Team
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Client
+**Trinity Harris**  
+Business, Management, Marketing, and Related Support Services Major  
+Eastern Kentucky University  
+[LinkedIn Profile](https://www.linkedin.com/in/trinity-harris05/)
 
-## Learn More
+### Developer
+**Nasif Mauthoor**  
+Full Stack Developer  
+[LinkedIn Profile](https://www.linkedin.com/in/nasif-mauthoor)
 
-To learn more about Next.js, take a look at the following resources:
+## Live Website
+Visit Harris Tours at [www.harris-tours.com](https://harristours.netlify.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+For business inquiries or technical support, please reach out through our [contact page](https://www.harris-tours.com/about/contact).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+© 2025 Harris Tours. All rights reserved.
