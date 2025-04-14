@@ -1,4 +1,5 @@
 import NavbarDropdown from "./NavbarDropdown";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -11,7 +12,7 @@ export default function Navbar() {
           <div className="w-6 h-0.5 bg-current"></div>
         </button>
       </div>
-      <img
+      <Image
           src="/logo.png"
           alt="Harris Tours Logo" 
           width={200}
