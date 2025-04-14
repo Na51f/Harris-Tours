@@ -39,11 +39,13 @@ Eastern Kentucky University
 ### Developer
 **Nasif Mauthoor**  
 Full Stack Developer  
+Computer Engineering Major  
+University of Guelph  
 [LinkedIn Profile](https://www.linkedin.com/in/nasif-mauthoor)
 
 ### Logo Artist
 **Ayman Abass El Emam**
-Game Design Major
+Game Design Major  
 Sheridan College
 
 ## Live Website
