@@ -5,13 +5,19 @@ export default function Navbar() {
     <div className="flex flex-row justify-between items-center m-8">
       <div className="flex flex-row gap-4">
         <button className="flex flex-col justify-center items-center gap-1.5 p-2 
-          hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors">
-          <div className="w-6 h-0.5 bg-current hover:grow"></div>
+          hover:bg-gray-100 rounded-lg transition-colors">
+          <div className="w-6 h-0.5 bg-current"></div>
           <div className="w-6 h-0.5 bg-current"></div>
           <div className="w-6 h-0.5 bg-current"></div>
         </button>
-        <div className="text-4xl uppercase font-semibold">Harris Tours</div>
       </div>
+      <img
+          src="/logo.png"
+          alt="Harris Tours Logo" 
+          width={200}
+          height={200}
+          className="rounded-lg"
+        />
       <div className="flex flex-row gap-16 font-mono text-xl">
         <NavbarDropdown
           label="Tours"

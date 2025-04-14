@@ -3,12 +3,12 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className="">
-      <div className="pb-2 w-full shadow-lg">
+    <main className="bg-neutral">
+      <header className="pt-6 pb-0.5 w-full shadow-xl bg-accent -mt-8">
         <Navbar />
-      </div>
+      </header>
 
-      <div className="flex flex-row gap-8 justify-center py-32 w-fit mx-auto animate-fade-in">
+      <div className="flex flex-row gap-8 justify-center py-32 w-fit mx-auto animate-fade-in bg-">
         <div className="flex flex-col gap-4 min-w-[160px] shrink-0">
           <Image
             src="/amusement.jpg"
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         <div className="text-8xl text-wrap font-semibold mx-8 shrink-0 flex flex-col gap-4 drop-shadow-2xl">
-          <span className="bg-linear-to-br from-purple-700 to-fuchsia-500 text-white border-r-purple-700 border-b-purple-700 border-t-fuchsia-500 border-l-fuchsia-500 border-4 rounded-2xl px-5 shadow-xl">
+          <span className="bg-linear-to-br from-primary to-secondary text-white border-r-primary border-b-primary border-t-secondary border-l-secondary border-4 rounded-2xl px-5 shadow-xl hover:scale-110 transition-transform duration-200 font-mono">
             Affordable
           </span>
           <span>Road Trips</span>
@@ -52,26 +52,26 @@ export default function Home() {
         </div>
       </div>
       <div className="relative w-full min-h-[600px] px-8 text-2xl">
-        <div className="absolute left-[15%] -rotate-2 bg-gray-200 rounded-xl p-8 mb-8 shadow-lg hover:shadow-xl hover:-rotate-1 transition-all max-w-2xl z-10 border border-gray-300">
+        <div className="absolute left-[15%] -rotate-2 bg-accent rounded-xl p-8 mb-8 shadow-lg hover:shadow-xl hover:-rotate-1 transition-all max-w-2xl z-10 border-4 border-primary">
           <p>
             Traveling as a college student is tough due to financial and time constraints. Over 1 in 10 college students want to travel. But there is an overlying struggle of expensive vacation options like studying abroad.
           </p>
         </div>
 
-        <div className="absolute right-[10%] top-[160px] rotate-1 bg-gray-200 rounded-xl p-8 mb-8 shadow-lg hover:shadow-xl hover:rotate-2 transition-all max-w-2xl z-20 border border-gray-300">
+        <div className="absolute right-[10%] top-[160px] rotate-1 bg-accent rounded-xl p-8 mb-8 shadow-lg hover:shadow-xl hover:rotate-2 transition-all max-w-2xl z-20 border-4 border-primary">
           <p>
             Harris Tours offers an affordable, fun, and flexible solution. Specializing in bus tours for college students, Harris Tours prioritizes activities and experiences over sightseeing.
           </p>
         </div>
 
-        <div className="absolute left-[25%] top-[320px] -rotate-1 bg-gray-200 rounded-xl p-8 shadow-lg hover:shadow-xl hover:rotate-1 transition-all max-w-2xl z-30 border border-gray-300">
+        <div className="absolute left-[25%] top-[320px] -rotate-1 bg-accent rounded-xl p-8 shadow-lg hover:shadow-xl hover:rotate-1 transition-all max-w-2xl z-30 border-4 border-primary">
           <p>
             With tours running on weekends, we cater perfectly to the busy college schedule. Unlike other companies, we focus on giving students hands-on adventures, providing a unique and exciting way to travel without the stress of planning or excessive costs.
           </p>
         </div>
       </div>
 
-      <footer className="bg-gray-100 py-16 px-8">
+      <footer className="bg-neutral p-8 drop-shadow-2xl border-t-4">
         <div className="max-w-7xl mx-auto grid grid-cols-4 gap-16">
           <div>
             <h3 className="font-semibold text-xl mb-4">Tours</h3>
@@ -109,7 +109,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-200 text-center text-gray-500">
           <p>© 2025 Harris Tours. All rights reserved.</p>
         </div>
