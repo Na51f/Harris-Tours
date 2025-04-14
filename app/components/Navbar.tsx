@@ -6,19 +6,21 @@ export default function Navbar() {
     <div className="flex flex-row justify-between items-center m-8">
       <div className="flex flex-row gap-4">
         <button className="flex flex-col justify-center items-center gap-1.5 p-2 
-          hover:bg-gray-100 rounded-lg transition-colors">
-          <div className="w-6 h-0.5 bg-current"></div>
-          <div className="w-6 h-0.5 bg-current"></div>
-          <div className="w-6 h-0.5 bg-current"></div>
+          hover:shadow-md hover:text-white hover:bg-secondary hover:scale-110 rounded-lg transition-all duration-300 w-10 h-10">
+          <div className="w-6 h-0.5 bg-current transition-all duration-300 group-hover:w-8"></div>
+          <div className="w-6 h-0.5 bg-current transition-all duration-300 group-hover:w-8"></div>
+          <div className="w-6 h-0.5 bg-current transition-all duration-300 group-hover:w-8"></div>
         </button>
       </div>
-      <Image
+      <div className="relative w-[200px] h-[100px]">
+        <Image
           src="/logo.png"
           alt="Harris Tours Logo" 
           width={200}
           height={200}
-          className="rounded-lg"
+          className="rounded-lg absolute transition-transform hover:scale-110"
         />
+      </div>
       <div className="flex flex-row gap-16 font-mono text-xl drop-shadow-xsz drop-shadow-secondary">
         <NavbarDropdown
           label="Tours"
