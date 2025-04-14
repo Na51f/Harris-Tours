@@ -41,6 +41,11 @@ Eastern Kentucky University
 Full Stack Developer  
 [LinkedIn Profile](https://www.linkedin.com/in/nasif-mauthoor)
 
+### Logo Artist
+**Ayman Abass El Emam**
+Game Design Major
+Sheridan College
+
 ## Live Website
 Visit Harris Tours at [www.harris-tours.com](https://harristours.netlify.app)
 
